@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE LAST MOVE — Stories Behind a Complex World</title>
+  <meta name="description" content="THE LAST MOVE explores engineering, technology, science and the decisions behind the systems that shape our world. Original documentaries investigating how it happened, why it mattered, and what changed everything.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://thelastmove.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="THE LAST MOVE — Stories Behind a Complex World">
+  <meta property="og:description" content="Original documentaries exploring engineering, technology, science and the decisions behind the systems that shape our world.">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta property="og:url" content="https://thelastmove.com/">
+  <meta property="og:site_name" content="THE LAST MOVE">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="THE LAST MOVE — Stories Behind a Complex World">
+  <meta name="twitter:description" content="Original documentaries exploring engineering, technology, science and the decisions behind the systems that shape our world.">
+  <meta name="twitter:image" content="assets/og-image.jpg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "THE LAST MOVE",
+    "description": "Original documentaries exploring engineering, technology, science and the decisions behind the systems that shape our world.",
+    "url": "https://thelastmove.com",
+    "sameAs": [
+      "https://www.youtube.com/@TheLastMoveTV"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════
+       NAVIGATION
+       ════════════════════════════════════════ -->
+  <nav class="nav" id="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand" aria-label="THE LAST MOVE — Home">
+        <img src="assets/logo.jpg" alt="THE LAST MOVE logo" class="nav__logo" width="42" height="42">
+        <span class="nav__brand-text">The Last Move</span>
+      </a>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav__links" id="nav-links">
+        <a href="index.html" class="nav__link is-active">Home</a>
+        <a href="documentaries.html" class="nav__link">Documentaries</a>
+        <a href="stories.html" class="nav__link">Stories</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="nav__cta" id="nav-yt-cta">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+          Watch on YouTube
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════════════════
+       HERO
+       ════════════════════════════════════════ -->
+  <section class="hero" id="hero" aria-label="Hero">
+    <canvas class="hero__canvas" id="hero-canvas" aria-hidden="true"></canvas>
+
+    <div class="hero__bg">
+      <img src="assets/banner.png" alt="THE LAST MOVE documentary banner" class="hero__bg-image" loading="eager">
+    </div>
+
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <div class="hero__ambient-glow" aria-hidden="true"></div>
+
+    <div class="hero__content">
+      <div class="hero__telemetry">
+        <span class="hero__telemetry-dot"></span>
+        <span>Original Documentary Platform · 4K UHD</span>
+      </div>
+
+      <img src="assets/logo.jpg" alt="THE LAST MOVE" class="hero__logo" width="76" height="76">
+
+      <h1 class="hero__title">The <span class="gold">Last</span> Move</h1>
+
+      <p class="hero__tagline">Stories Behind a Complex World.</p>
+
+      <div class="hero__categories" aria-label="Core categories">
+        <span class="hero__cat-pill">Engineering</span>
+        <span class="hero__cat-sep">/</span>
+        <span class="hero__cat-pill">Technology</span>
+        <span class="hero__cat-sep">/</span>
+        <span class="hero__cat-pill">Science</span>
+      </div>
+
+      <p class="hero__description">
+        Investigating the megastructures, breakthrough inventions, and pivotal human decisions behind the complex systems shaping civilization.
+      </p>
+
+      <div class="hero__actions">
+        <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="btn btn--primary" id="hero-cta-yt">
+          <svg viewBox="0 0 24 24" aria-hidden="true" style="width:18px;height:18px;fill:currentColor;"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+          Watch on YouTube
+        </a>
+        <a href="documentaries.html" class="btn btn--secondary" id="hero-cta-explore">
+          Explore Production Slate
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <span class="hero__scroll-text">Explore</span>
+      <span class="hero__scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       THREE PILLARS WITH CINEMA CARDS
+       ════════════════════════════════════════ -->
+  <section class="section pillars" id="pillars" aria-label="Core subjects">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <p class="section-header__label" style="justify-content: center;">Core Investigations</p>
+        <h2 class="section-header__title">The Stories That Shape Our World</h2>
+        <div class="divider divider--center"></div>
+        <p class="section-header__subtitle" style="margin: 0 auto;">
+          From colossal physical infrastructure to nanoscale computing and cosmological frontiers, we deconstruct the systems that define human capability.
+        </p>
+      </div>
+
+      <div class="pillars__grid">
+        <!-- Pillar 1: Engineering -->
+        <article class="pillar-card reveal reveal--delay-1">
+          <img src="assets/pillar-engineering.jpg" alt="Colossal suspension bridge megastructure in mountain fjord" class="pillar-card__bg" loading="lazy">
+          <div class="pillar-card__overlay"></div>
+          <div class="pillar-card__content">
+            <span class="pillar-card__tag">SYS // 01 · INFRASTRUCTURE</span>
+            <h3 class="pillar-card__title">Engineering</h3>
+            <div class="pillar-card__divider"></div>
+            <p class="pillar-card__text">
+              The megastructures, industrial machines, subterranean transit networks, and high-stakes engineering calculations that conquer geography.
+            </p>
+            <div class="pillar-card__meta">
+              <span>EXPLORE CASE STUDIES →</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Pillar 2: Technology -->
+        <article class="pillar-card reveal reveal--delay-2">
+          <img src="assets/pillar-technology.jpg" alt="Quantum computer processor core with glowing gold circuitry" class="pillar-card__bg" loading="lazy">
+          <div class="pillar-card__overlay"></div>
+          <div class="pillar-card__content">
+            <span class="pillar-card__tag">SYS // 02 · ARCHITECTURE</span>
+            <h3 class="pillar-card__title">Technology</h3>
+            <div class="pillar-card__divider"></div>
+            <p class="pillar-card__text">
+              Silicon lithography, quantum computing architecture, autonomous networks, and the technological leaps redefining civilization.
+            </p>
+            <div class="pillar-card__meta">
+              <span>EXPLORE INNOVATIONS →</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Pillar 3: Science -->
+        <article class="pillar-card reveal reveal--delay-3">
+          <img src="assets/pillar-science.jpg" alt="Deep space radio observatory array under Milky Way in Atacama" class="pillar-card__bg" loading="lazy">
+          <div class="pillar-card__overlay"></div>
+          <div class="pillar-card__content">
+            <span class="pillar-card__tag">SYS // 03 · DISCOVERY</span>
+            <h3 class="pillar-card__title">Science</h3>
+            <div class="pillar-card__divider"></div>
+            <p class="pillar-card__text">
+              Particle physics accelerators, deep space radio telescope arrays, genetic mapping, and the scientific experiments unlocking the universe.
+            </p>
+            <div class="pillar-card__meta">
+              <span>EXPLORE FRONTIERS →</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       CINEMA SHOWCASE TEASER
+       ════════════════════════════════════════ -->
+  <section class="section showcase" id="showcase" aria-label="Featured Trailer Teaser">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <p class="section-header__label" style="justify-content: center;">Official Channel Showcase</p>
+        <h2 class="section-header__title">Cinematic Documentary Experience</h2>
+        <div class="divider divider--center"></div>
+      </div>
+
+      <div class="cinema-showcase reveal">
+        <div class="cinema-showcase__viewport">
+          <img src="assets/og-image.jpg" alt="THE LAST MOVE Preview Teaser" class="cinema-showcase__bg">
+          <div class="cinema-showcase__overlay"></div>
+
+          <div class="cinema-showcase__badges">
+            <span class="cinema-badge cinema-badge--gold">ORIGINAL TEASER</span>
+            <span class="cinema-badge">4K UHD</span>
+            <span class="cinema-badge">DOLBY 5.1</span>
+          </div>
+
+          <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="cinema-play-btn" aria-label="Play documentary teaser on YouTube">
+            <svg viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+          </a>
+
+          <div class="cinema-showcase__caption">
+            <div>
+              <div class="cinema-showcase__title">The Decisions That Changed Everything</div>
+              <div class="cinema-showcase__desc">Now streaming exclusively on YouTube @TheLastMoveTV</div>
+            </div>
+            <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="btn btn--secondary" style="padding: 0.6rem 1.2rem; font-size: var(--text-xs);">
+              Subscribe on YouTube
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       EDITORIAL IDEA
+       ════════════════════════════════════════ -->
+  <section class="section editorial" id="editorial" aria-label="Our approach">
+    <div class="container">
+      <div class="editorial__content reveal">
+        <p class="section-header__label">Beyond the Surface</p>
+        <p class="editorial__lead">
+          We go beyond <em>what happened</em> to explore <em>how it happened</em>, <em>why it mattered</em>, and <em>what changed everything</em>.
+        </p>
+        <p class="editorial__text">
+          Every engineering project, every technology, every scientific breakthrough has a hidden layer of decisions, compromises, failures and consequences that most people never see. THE LAST MOVE finds those stories.
+        </p>
+        <div class="divider"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       STORY EXPERIENCE / TELEMETRY TIMELINE
+       ════════════════════════════════════════ -->
+  <section class="section story-layers" id="story-layers" aria-label="How we tell stories">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <p class="section-header__label" style="justify-content: center;">Investigation Architecture</p>
+        <h2 class="section-header__title">Beneath Every Outcome</h2>
+        <p class="section-header__subtitle" style="margin: 0 auto;">
+          Every story has layers. We investigate the decisions, systems and consequences hidden beneath the surface.
+        </p>
+      </div>
+
+      <div class="story-layers__flow">
+        <div class="story-layer reveal">
+          <div class="story-layer__step">PHASE // 01</div>
+          <h3 class="story-layer__label">The Surface</h3>
+          <p class="story-layer__text">What the world sees. The outcome, the headline, the catastrophic failure or triumph.</p>
+        </div>
+
+        <div class="story-layer reveal reveal--delay-1">
+          <div class="story-layer__step">PHASE // 02</div>
+          <h3 class="story-layer__label">The System</h3>
+          <p class="story-layer__text">The complex machinery, metallurgy, physics, and software architectures running behind closed doors.</p>
+        </div>
+
+        <div class="story-layer reveal reveal--delay-2">
+          <div class="story-layer__step">PHASE // 03</div>
+          <h3 class="story-layer__label">The Decisions</h3>
+          <p class="story-layer__text">The critical boardroom choices, budget tradeoffs, cognitive biases, and turning points that determined fate.</p>
+        </div>
+
+        <div class="story-layer reveal reveal--delay-3">
+          <div class="story-layer__step">PHASE // 04</div>
+          <h3 class="story-layer__label">The Consequences</h3>
+          <p class="story-layer__text">What changed forever, what failed, what succeeded — and the lasting ripple effects shaping our present.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       YOUTUBE CTA
+       ════════════════════════════════════════ -->
+  <section class="section youtube-cta" id="youtube-cta" aria-label="Watch on YouTube">
+    <div class="container">
+      <div class="reveal">
+        <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="youtube-cta__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+        </a>
+        <h2 class="youtube-cta__title">Watch The Last Move on YouTube</h2>
+        <p class="youtube-cta__handle">@TheLastMoveTV</p>
+        <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="btn btn--primary" id="yt-section-cta">
+          <svg viewBox="0 0 24 24" aria-hidden="true" style="width:18px;height:18px;fill:currentColor;"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+          Visit the Channel
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       FOOTER
+       ════════════════════════════════════════ -->
+  <footer class="footer" id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="assets/logo.jpg" alt="THE LAST MOVE" class="footer__logo" width="48" height="48">
+          <span class="footer__name">The Last Move</span>
+          <span class="footer__tagline">Stories Behind a Complex World.</span>
+          <span class="footer__categories">Engineering · Technology · Science</span>
+        </div>
+
+        <div>
+          <h3 class="footer__heading">Navigate</h3>
+          <div class="footer__links">
+            <a href="index.html" class="footer__link">Home</a>
+            <a href="documentaries.html" class="footer__link">Documentaries</a>
+            <a href="stories.html" class="footer__link">Stories</a>
+            <a href="about.html" class="footer__link">About</a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="footer__heading">Connect</h3>
+          <div class="footer__links">
+            <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="footer__link">YouTube — @TheLastMoveTV</a>
+            <a href="mailto:thelastmovetv@gmail.com" class="footer__link">thelastmovetv@gmail.com</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2026 THE LAST MOVE. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#" class="footer__link">Privacy</a>
+          <span style="color: var(--color-grey);">·</span>
+          <a href="#" class="footer__link">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/hero-animation.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stories — THE LAST MOVE</title>
+  <meta name="description" content="Written explorations of engineering, technology and science. Companion pieces, technical explainers, blueprints and deeper investigations from THE LAST MOVE.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://thelastmove.com/stories">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Stories & Investigations — THE LAST MOVE">
+  <meta property="og:description" content="Written explorations of engineering, technology and science from THE LAST MOVE.">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta property="og:site_name" content="THE LAST MOVE">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav is-scrolled" id="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand" aria-label="THE LAST MOVE — Home">
+        <img src="assets/logo.jpg" alt="THE LAST MOVE logo" class="nav__logo" width="42" height="42">
+        <span class="nav__brand-text">The Last Move</span>
+      </a>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav__links" id="nav-links">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="documentaries.html" class="nav__link">Documentaries</a>
+        <a href="stories.html" class="nav__link is-active">Stories</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="nav__cta">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+          Watch on YouTube
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <p class="page-header__label reveal">Editorial Archives</p>
+      <h1 class="page-header__title reveal">Investigations &amp; Stories</h1>
+      <p class="page-header__subtitle reveal">
+        Written companion essays, metallurgical breakdowns, system retrospectives, and deep technical analyses.
+      </p>
+    </div>
+  </header>
+
+  <!-- Stories Grid -->
+  <main class="section" id="stories-grid" aria-label="Stories">
+    <div class="container">
+      <div class="dossier-grid">
+        <!-- Story 1 -->
+        <article class="dossier-card reveal">
+          <div class="dossier-card__media">
+            <img src="assets/pillar-engineering.jpg" alt="Suspension Bridge Engineering" class="dossier-card__img" loading="lazy">
+            <span class="dossier-card__badge">12 MIN READ</span>
+          </div>
+          <div class="dossier-card__body">
+            <span class="dossier-card__category">INFRASTRUCTURE RETROSPECTIVE</span>
+            <h2 class="dossier-card__title">The Resonance Threshold: When Wind Meets Mega-Spans</h2>
+            <p class="dossier-card__excerpt">
+              How aerodynamic flutter and vortex shedding forced engineers to rewrite aerodynamic calculations from suspension spans to skyscraper dampers.
+            </p>
+            <div class="dossier-card__footer">
+              <span>BYLINE: TLM EDITORIAL</span>
+              <span style="color: var(--color-gold);">COMING SOON</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Story 2 -->
+        <article class="dossier-card reveal reveal--delay-1">
+          <div class="dossier-card__media">
+            <img src="assets/pillar-technology.jpg" alt="Quantum Architecture" class="dossier-card__img" loading="lazy">
+            <span class="dossier-card__badge">9 MIN READ</span>
+          </div>
+          <div class="dossier-card__body">
+            <span class="dossier-card__category">COMPUTING ARCHITECTURE</span>
+            <h2 class="dossier-card__title">The 2-Nanometer Wall: Why Silicon Won't Shrink Forever</h2>
+            <p class="dossier-card__excerpt">
+              Inside quantum tunneling: what happens when a transistor gate is merely three silicon atoms wide, and the materials vying to replace it.
+            </p>
+            <div class="dossier-card__footer">
+              <span>BYLINE: TLM RESEARCH</span>
+              <span style="color: var(--color-gold);">COMING SOON</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Story 3 -->
+        <article class="dossier-card reveal reveal--delay-2">
+          <div class="dossier-card__media">
+            <img src="assets/pillar-science.jpg" alt="Observatory Astrophysics" class="dossier-card__img" loading="lazy">
+            <span class="dossier-card__badge">15 MIN READ</span>
+          </div>
+          <div class="dossier-card__body">
+            <span class="dossier-card__category">ASTROPHYSICS INVESTIGATION</span>
+            <h2 class="dossier-card__title">The Coldest Spot in the Known Universe Is in a Lab</h2>
+            <p class="dossier-card__excerpt">
+              Chilling dilution refrigerators down to milliKelvin temperatures to observe quantum superposition before thermal noise destroys it.
+            </p>
+            <div class="dossier-card__footer">
+              <span>BYLINE: TLM RESEARCH</span>
+              <span style="color: var(--color-gold);">COMING SOON</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="assets/logo.jpg" alt="THE LAST MOVE" class="footer__logo" width="48" height="48">
+          <span class="footer__name">The Last Move</span>
+          <span class="footer__tagline">Stories Behind a Complex World.</span>
+          <span class="footer__categories">Engineering · Technology · Science</span>
+        </div>
+        <div>
+          <h3 class="footer__heading">Navigate</h3>
+          <div class="footer__links">
+            <a href="index.html" class="footer__link">Home</a>
+            <a href="documentaries.html" class="footer__link">Documentaries</a>
+            <a href="stories.html" class="footer__link">Stories</a>
+            <a href="about.html" class="footer__link">About</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="footer__heading">Connect</h3>
+          <div class="footer__links">
+            <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="footer__link">YouTube — @TheLastMoveTV</a>
+            <a href="mailto:thelastmovetv@gmail.com" class="footer__link">thelastmovetv@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2026 THE LAST MOVE. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#" class="footer__link">Privacy</a>
+          <span style="color: var(--color-grey);">·</span>
+          <a href="#" class="footer__link">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

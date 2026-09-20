@@ -1,0 +1,260 @@
+/* ============================================
+   THE LAST MOVE — Responsive Design
+   ============================================ */
+
+/* ── Laptop (< 1200px) ── */
+@media (max-width: 1199px) {
+  :root {
+    --text-hero: clamp(2.4rem, 5vw, 4.2rem);
+  }
+
+  .editorial__lead {
+    font-size: var(--text-xl);
+  }
+
+  .about-grid {
+    gap: var(--space-12);
+  }
+}
+
+/* ── Tablet (< 992px) ── */
+@media (max-width: 991px) {
+  .section {
+    padding: var(--space-20) 0;
+  }
+
+  .pillars__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .dossier-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+    max-width: 540px;
+    margin: var(--space-8) auto 0;
+  }
+
+  .story-layers__flow {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-10);
+  }
+
+  .about-explore__grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: var(--space-6);
+  }
+
+  .contact__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-10);
+  }
+
+  .footer__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-8);
+  }
+
+  .footer__brand {
+    grid-column: 1 / -1;
+  }
+}
+
+/* ── Mobile (< 768px) ── */
+@media (max-width: 767px) {
+  .container {
+    padding: 0 var(--space-5);
+  }
+
+  .section {
+    padding: var(--space-16) 0;
+  }
+
+  .section-header {
+    margin-bottom: var(--space-10);
+  }
+
+  .section-header__title {
+    font-size: var(--text-2xl);
+  }
+
+  /* Navigation */
+  .nav__links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(9, 9, 11, 0.98);
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-8);
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--duration-slow) var(--ease-smooth);
+    z-index: 1000;
+  }
+
+  .nav__links.is-open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .nav__link {
+    font-size: var(--text-lg);
+    letter-spacing: var(--tracking-cinematic);
+  }
+
+  .nav__cta {
+    font-size: var(--text-sm);
+    padding: var(--space-3) var(--space-6);
+  }
+
+  .nav__toggle {
+    display: flex;
+  }
+
+  /* Hero */
+  .hero {
+    min-height: 100svh;
+    padding-top: calc(var(--nav-height) + var(--space-4));
+  }
+
+  .hero__content {
+    padding: var(--space-6) var(--space-4);
+  }
+
+  .hero__title {
+    font-size: 2.2rem;
+  }
+
+  .hero__tagline {
+    font-size: var(--text-sm);
+  }
+
+  .hero__categories {
+    gap: var(--space-2);
+    font-size: 0.65rem;
+  }
+
+  .hero__description {
+    font-size: var(--text-sm);
+  }
+
+  .hero__actions {
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .hero__actions .btn {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .hero__scroll {
+    display: none;
+  }
+
+  /* Cinema Showcase */
+  .cinema-showcase__viewport {
+    aspect-ratio: 16 / 9;
+    min-height: 240px;
+  }
+
+  .cinema-play-btn {
+    width: 64px;
+    height: 64px;
+  }
+
+  .cinema-play-btn svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .cinema-showcase__caption {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-3);
+  }
+
+  /* Story Layers */
+  .story-layers__flow {
+    grid-template-columns: 1fr;
+  }
+
+  /* Editorial */
+  .editorial__lead {
+    font-size: var(--text-lg);
+  }
+
+  /* YouTube CTA */
+  .youtube-cta__title {
+    font-size: var(--text-xl);
+  }
+
+  /* Page Header */
+  .page-header {
+    padding-top: calc(var(--nav-height) + var(--space-16));
+    padding-bottom: var(--space-12);
+  }
+
+  .page-header__title {
+    font-size: var(--text-2xl);
+  }
+
+  /* Footer */
+  .footer__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    gap: var(--space-4);
+    text-align: center;
+  }
+}
+
+/* ── Small Mobile (< 480px) ── */
+@media (max-width: 479px) {
+  :root {
+    --text-hero: 2rem;
+  }
+
+  .container {
+    padding: 0 var(--space-4);
+  }
+
+  .hero__title {
+    font-size: 1.85rem;
+  }
+
+  .hero__logo {
+    width: 56px;
+    height: 56px;
+  }
+
+  .hero__categories {
+    gap: var(--space-1);
+  }
+
+  .doc-categories {
+    gap: var(--space-2);
+  }
+
+  .doc-category {
+    font-size: 0.65rem;
+    padding: var(--space-1) var(--space-3);
+  }
+}
