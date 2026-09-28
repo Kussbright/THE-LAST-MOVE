@@ -1,33 +1,27 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>THE LAST MOVE — Stories Behind a Complex World</title>
-  <meta name="description" content="THE LAST MOVE explores engineering, technology, science and the decisions behind the systems that shape our world. Original documentaries investigating how it happened, why it mattered, and what changed everything.">
+  <title>THE LAST MOVE — Built is the Milestone. Ready is the Destination.</title>
+  <meta name="description" content="Welcome to THE LAST MOVE. Hosted by animated guide Alex, investigating worst-case scenarios, catastrophic failures, and absolute survival.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://thelastmove.com/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="THE LAST MOVE — Stories Behind a Complex World">
-  <meta property="og:description" content="Original documentaries exploring engineering, technology, science and the decisions behind the systems that shape our world.">
-  <meta property="og:image" content="assets/og-image.jpg">
+  <meta property="og:title" content="THE LAST MOVE — Creator Hub">
+  <meta property="og:description" content="What happens when complex systems—from megaprojects to the human body—hit their breaking point? Join animated guide Alex.">
+  <meta property="og:image" content="assets/alex-banner.png">
   <meta property="og:url" content="https://thelastmove.com/">
   <meta property="og:site_name" content="THE LAST MOVE">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="THE LAST MOVE — Stories Behind a Complex World">
-  <meta name="twitter:description" content="Original documentaries exploring engineering, technology, science and the decisions behind the systems that shape our world.">
-  <meta name="twitter:image" content="assets/og-image.jpg">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  <!-- Styles -->
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/components.css">
@@ -35,30 +29,32 @@
   <link rel="stylesheet" href="css/pages.css">
   <link rel="stylesheet" href="css/responsive.css">
 
-  <!-- Structured Data -->
+  <!-- Schema.org Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": "YouTubeChannel",
     "name": "THE LAST MOVE",
-    "description": "Original documentaries exploring engineering, technology, science and the decisions behind the systems that shape our world.",
-    "url": "https://thelastmove.com",
-    "sameAs": [
-      "https://www.youtube.com/@TheLastMoveTV"
-    ]
+    "description": "Hosted by animated guide Alex, investigating worst-case scenarios, catastrophic failures, and absolute survival.",
+    "url": "https://www.youtube.com/@TheLastMoveTV"
   }
   </script>
 </head>
 <body>
 
-  <!-- ════════════════════════════════════════
+  <!-- ============================================
        NAVIGATION
-       ════════════════════════════════════════ -->
+       ============================================ -->
   <nav class="nav" id="main-nav" role="navigation" aria-label="Main navigation">
     <div class="nav__inner">
       <a href="index.html" class="nav__brand" aria-label="THE LAST MOVE — Home">
-        <img src="assets/logo.jpg" alt="THE LAST MOVE logo" class="nav__logo" width="42" height="42">
-        <span class="nav__brand-text">The Last Move</span>
+        <div class="nav__logo-wrapper">
+          <img src="assets/alex-avatar.jpg" alt="Alex Host" class="nav__logo" width="44" height="44">
+        </div>
+        <div class="nav__brand-text">
+          <span>THE LAST MOVE</span>
+          <span class="nav__brand-sub">YOUTUBE CREATOR HUB</span>
+        </div>
       </a>
 
       <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
@@ -69,133 +65,338 @@
 
       <div class="nav__links" id="nav-links">
         <a href="index.html" class="nav__link is-active">Home</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#pillars" class="nav__link">6 Pillars</a>
         <a href="documentaries.html" class="nav__link">Documentaries</a>
         <a href="stories.html" class="nav__link">Stories</a>
-        <a href="about.html" class="nav__link">About</a>
+        <a href="about.html" class="nav__link">Alex & Brand</a>
         <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="nav__cta" id="nav-yt-cta">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
-          Watch on YouTube
+          Subscribe 🔔
         </a>
       </div>
     </div>
   </nav>
 
-  <!-- ════════════════════════════════════════
-       HERO
-       ════════════════════════════════════════ -->
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
   <section class="hero" id="hero" aria-label="Hero">
-    <canvas class="hero__canvas" id="hero-canvas" aria-hidden="true"></canvas>
-
+    <!-- Background Control Room Banner -->
     <div class="hero__bg">
-      <img src="assets/banner.png" alt="THE LAST MOVE documentary banner" class="hero__bg-image" loading="eager">
+      <img src="assets/alex-banner.png" alt="THE LAST MOVE control room background" class="hero__bg-image" loading="eager">
     </div>
 
     <div class="hero__overlay" aria-hidden="true"></div>
-    <div class="hero__ambient-glow" aria-hidden="true"></div>
+    <div class="hero__dots" aria-hidden="true"></div>
 
-    <div class="hero__content">
-      <div class="hero__telemetry">
-        <span class="hero__telemetry-dot"></span>
-        <span>Original Documentary Series</span>
-      </div>
-
-      <img src="assets/logo.jpg" alt="THE LAST MOVE" class="hero__logo" width="76" height="76">
-
-      <h1 class="hero__title">The <span class="gold">Last</span> Move</h1>
-
-      <p class="hero__tagline">Stories Behind a Complex World.</p>
-
-      <div class="hero__categories" aria-label="Core categories">
-        <span class="hero__cat-pill">Engineering</span>
-        <span class="hero__cat-sep">/</span>
-        <span class="hero__cat-pill">Technology</span>
-        <span class="hero__cat-sep">/</span>
-        <span class="hero__cat-pill">Science</span>
-      </div>
-
-      <p class="hero__description">
-        Investigating the megastructures, breakthrough inventions, and pivotal human decisions behind the complex systems shaping civilization.
-      </p>
-
-      <div class="hero__actions">
-        <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="btn btn--primary" id="hero-cta-yt">
-          <svg viewBox="0 0 24 24" aria-hidden="true" style="width:18px;height:18px;fill:currentColor;"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
-          Watch on YouTube
-        </a>
-        <a href="documentaries.html" class="btn btn--secondary" id="hero-cta-explore">
-          Explore Documentaries
-        </a>
-      </div>
+    <!-- Floating Cartoon Doodle Stickers -->
+    <div class="hero__doodle hero__doodle--1" aria-hidden="true">
+      <span>📐</span> Blueprints Dissected
+    </div>
+    <div class="hero__doodle hero__doodle--2" aria-hidden="true">
+      <span>🚨</span> Worst-Case Scenarios
+    </div>
+    <div class="hero__doodle hero__doodle--3" aria-hidden="true">
+      <span>🌋</span> Extreme Environments
+    </div>
+    <div class="hero__doodle hero__doodle--4" aria-hidden="true">
+      <span>🫀</span> Human Limits
     </div>
 
-    <div class="hero__scroll" aria-hidden="true">
-      <span class="hero__scroll-text">Explore</span>
-      <span class="hero__scroll-line"></span>
+    <!-- Hero Content -->
+    <div class="hero__content">
+      <!-- Cartoon Profile Picture of Alex Prominently Featured -->
+      <div class="hero__profile-wrapper reveal">
+        <div class="hero__profile-badge">
+          <img src="assets/alex-avatar.jpg" alt="Alex - Animated Guide and Host" class="hero__profile-img" width="150" height="150">
+        </div>
+        <div class="hero__profile-tag">
+          <span class="hero__profile-tag-dot"></span>
+          <span>HOST // ALEX</span>
+        </div>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="hero__title reveal reveal--delay-1">
+        THE <span class="hero__title-accent">LAST MOVE</span>
+      </h1>
+
+      <!-- Sub-headline / Tagline -->
+      <p class="hero__tagline reveal reveal--delay-2">
+        <span class="hero__tagline-highlight">Built is the milestone.</span> Ready is the destination. <span class="hero__tagline-action">This is the last move.</span>
+      </p>
+
+      <!-- Action Button -->
+      <div class="hero__cta-wrapper reveal reveal--delay-3">
+        <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="btn btn--creator-cta" id="hero-main-cta">
+          Subscribe, join him, and let's adventure together <span class="cta-bell">🔔</span>
+        </a>
+      </div>
+
+      <!-- Channel Stats Strip -->
+      <div class="hero__stats reveal reveal--delay-4">
+        <div class="hero__stat-item">
+          <span class="icon">🔍</span>
+          <span><strong>Worst-Case</strong> Investigations</span>
+        </div>
+        <div class="hero__stat-item">
+          <span class="icon">🏗️</span>
+          <span><strong>Engineering</strong> Deconstructions</span>
+        </div>
+        <div class="hero__stat-item">
+          <span class="icon">🎨</span>
+          <span><strong>100%</strong> 2D Animated Guides</span>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- ════════════════════════════════════════
-       THREE PILLARS WITH CINEMA CARDS
-       ════════════════════════════════════════ -->
-  <section class="section pillars" id="pillars" aria-label="Core subjects">
+  <!-- ============================================
+       ABOUT / CHANNEL DESCRIPTION SECTION
+       ============================================ -->
+  <section class="about-section" id="about" aria-label="About THE LAST MOVE">
     <div class="container">
-      <div class="section-header text-center reveal">
-        <p class="section-header__label" style="justify-content: center;">Core Investigations</p>
-        <h2 class="section-header__title">The Stories That Shape Our World</h2>
-        <div class="divider divider--center"></div>
-        <p class="section-header__subtitle" style="margin: 0 auto;">
-          From colossal physical infrastructure to nanoscale computing and cosmological frontiers, we deconstruct the systems that define human capability.
+      <div class="about-grid">
+        <!-- Left: Text Content -->
+        <div class="about-text-content reveal">
+          <div class="about-badge">
+            <span>👋</span>
+            <span>MEET THE MISSION</span>
+          </div>
+
+          <h2 class="about-lead">
+            What happens when complex systems—from megaprojects to the human body—<span class="about-lead-gradient">hit their breaking point?</span>
+          </h2>
+
+          <div class="about-description">
+            <p>
+              Welcome to <strong>THE LAST MOVE</strong>. Hosted by our animated guide, <strong>Alex</strong>, join him as he investigates worst-case scenarios, catastrophic failures, and absolute survival. He doesn't just look at the aftermath. He dissects the blueprints, the biology, and the fatal decisions that trigger total collapse.
+            </p>
+          </div>
+
+          <!-- 3 Dissection Pillars -->
+          <div class="about-features">
+            <div class="about-feature-item">
+              <div class="about-feature-icon">📐</div>
+              <div>
+                <h3 class="about-feature-title">The Blueprints</h3>
+                <p class="about-feature-desc">Unpacking hidden structural stress points, megaproject oversights, and cascading architectural design flaws.</p>
+              </div>
+            </div>
+
+            <div class="about-feature-item">
+              <div class="about-feature-icon">🫀</div>
+              <div>
+                <h3 class="about-feature-title">The Biology</h3>
+                <p class="about-feature-desc">Tracking what extreme crush depths, hypoxia, freezing temperatures, and sensory deprivation do to the human body.</p>
+              </div>
+            </div>
+
+            <div class="about-feature-item">
+              <div class="about-feature-icon">⚡</div>
+              <div>
+                <h3 class="about-feature-title">The Fatal Decisions</h3>
+                <p class="about-feature-desc">Pinpointing the exact sequence of human panic, algorithmic failure, and compromise that causes total collapse.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Animated Host Card -->
+        <div class="about-host-wrapper reveal reveal--delay-2">
+          <div class="about-host-card">
+            <div class="about-host-visual">
+              <img src="assets/alex-welding.jpg" alt="Alex investigating system failure in underground tunnel" class="about-host-img">
+              <div class="about-host-overlay"></div>
+              <div class="about-host-bubble">
+                <span>⚡</span>
+                <span>Margin of error: 0%</span>
+              </div>
+            </div>
+            <div class="about-host-info">
+              <span class="about-host-role">ANIMATED HOST & GUIDE</span>
+              <h3 class="about-host-name">Alex</h3>
+              <p class="about-host-bio">
+                Armed with blueprints, clipboards, and curiosity, Alex journeys into deep sea depths, high-voltage circuits, and abandoned megaprojects to uncover the decisions behind catastrophic collapse.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       THE 6 CORE CONTENT PILLARS (GRID LAYOUT)
+       ============================================ -->
+  <section class="pillars-section" id="pillars" aria-label="Core Content Pillars">
+    <div class="container">
+      <div class="pillars-header reveal">
+        <div class="pillars-tag">
+          <span>🎯</span>
+          <span>THE UNIVERSE OF INVESTIGATIONS</span>
+        </div>
+        <h2 class="pillars-title">The 6 Core Content Pillars</h2>
+        <p class="pillars-subtitle">
+          From deep sea trenches to orbit-bound spacecraft, explore the 6 interconnected dimensions where systems face total failure.
         </p>
       </div>
 
-      <div class="pillars__grid">
-        <!-- Pillar 1: Engineering -->
-        <article class="pillar-card reveal reveal--delay-1">
-          <img src="assets/pillar-engineering.jpg" alt="Colossal suspension bridge megastructure in mountain fjord" class="pillar-card__bg" loading="lazy">
-          <div class="pillar-card__overlay"></div>
-          <div class="pillar-card__content">
-            <span class="pillar-card__tag">SYS // 01 · INFRASTRUCTURE</span>
-            <h3 class="pillar-card__title">Engineering</h3>
-            <div class="pillar-card__divider"></div>
-            <p class="pillar-card__text">
-              The megastructures, industrial machines, subterranean transit networks, and high-stakes engineering calculations that conquer geography.
+      <!-- 3x2 Grid -->
+      <div class="pillars-grid">
+        <!-- Pillar 1: Engineering & Tech Disasters -->
+        <article class="pillar-card pillar-card--1 reveal reveal--delay-1">
+          <div class="pillar-card__thumb">
+            <img src="assets/alex-blueprints.jpg" alt="Alex reviewing tunnel boring machine blueprints" class="pillar-card__img">
+            <div class="pillar-card__overlay"></div>
+            <div class="pillar-card__badge-row">
+              <span class="pillar-card__number">PILLAR // 01</span>
+              <span class="pillar-card__emoji">🏗️</span>
+            </div>
+          </div>
+          <div class="pillar-card__body">
+            <div class="pillar-card__header">
+              <h3 class="pillar-card__title">Engineering & Tech Disasters</h3>
+            </div>
+            <p class="pillar-card__topics">
+              Megaprojects, software glitches, infrastructure failures, and the engineering oversights behind historic collapses.
             </p>
-            <div class="pillar-card__meta">
-              <span>EXPLORE CASE STUDIES →</span>
+            <div class="pillar-card__footer">
+              <a href="documentaries.html" class="pillar-card__link">
+                <span>Explore Cases</span>
+                <span>→</span>
+              </a>
             </div>
           </div>
         </article>
 
-        <!-- Pillar 2: Technology -->
-        <article class="pillar-card reveal reveal--delay-2">
-          <img src="assets/pillar-technology.jpg" alt="Quantum computer processor core with glowing gold circuitry" class="pillar-card__bg" loading="lazy">
-          <div class="pillar-card__overlay"></div>
-          <div class="pillar-card__content">
-            <span class="pillar-card__tag">SYS // 02 · ARCHITECTURE</span>
-            <h3 class="pillar-card__title">Technology</h3>
-            <div class="pillar-card__divider"></div>
-            <p class="pillar-card__text">
-              Silicon lithography, quantum computing architecture, autonomous networks, and the technological leaps redefining civilization.
+        <!-- Pillar 2: Extreme Environments -->
+        <article class="pillar-card pillar-card--2 reveal reveal--delay-2">
+          <div class="pillar-card__thumb">
+            <img src="assets/alex-volcano.jpg" alt="Alex photographing volcanic hydrothermal vent" class="pillar-card__img">
+            <div class="pillar-card__overlay"></div>
+            <div class="pillar-card__badge-row">
+              <span class="pillar-card__number">PILLAR // 02</span>
+              <span class="pillar-card__emoji">🌋</span>
+            </div>
+          </div>
+          <div class="pillar-card__body">
+            <div class="pillar-card__header">
+              <h3 class="pillar-card__title">Extreme Environments</h3>
+            </div>
+            <p class="pillar-card__topics">
+              Deep ocean, space, polar ice, and what harsh planetary extremes do to the human body and machinery.
             </p>
-            <div class="pillar-card__meta">
-              <span>EXPLORE INNOVATIONS →</span>
+            <div class="pillar-card__footer">
+              <a href="documentaries.html" class="pillar-card__link">
+                <span>Explore Frontiers</span>
+                <span>→</span>
+              </a>
             </div>
           </div>
         </article>
 
-        <!-- Pillar 3: Science -->
-        <article class="pillar-card reveal reveal--delay-3">
-          <img src="assets/pillar-science.jpg" alt="Deep space radio observatory array under Milky Way in Atacama" class="pillar-card__bg" loading="lazy">
-          <div class="pillar-card__overlay"></div>
-          <div class="pillar-card__content">
-            <span class="pillar-card__tag">SYS // 03 · DISCOVERY</span>
-            <h3 class="pillar-card__title">Science</h3>
-            <div class="pillar-card__divider"></div>
-            <p class="pillar-card__text">
-              Particle physics accelerators, deep space radio telescope arrays, genetic mapping, and the scientific experiments unlocking the universe.
+        <!-- Pillar 3: The Mind Under Pressure -->
+        <article class="pillar-card pillar-card--3 reveal reveal--delay-3">
+          <div class="pillar-card__thumb">
+            <img src="assets/alex-space-alert.jpg" alt="Alex facing system failure alarms in space cockpit" class="pillar-card__img">
+            <div class="pillar-card__overlay"></div>
+            <div class="pillar-card__badge-row">
+              <span class="pillar-card__number">PILLAR // 03</span>
+              <span class="pillar-card__emoji">🧠</span>
+            </div>
+          </div>
+          <div class="pillar-card__body">
+            <div class="pillar-card__header">
+              <h3 class="pillar-card__title">The Mind Under Pressure</h3>
+            </div>
+            <p class="pillar-card__topics">
+              Survival psychology, isolation, sensory deprivation, and how the human psyche copes when catastrophe strikes.
             </p>
-            <div class="pillar-card__meta">
-              <span>EXPLORE FRONTIERS →</span>
+            <div class="pillar-card__footer">
+              <a href="stories.html" class="pillar-card__link">
+                <span>Explore Survival</span>
+                <span>→</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Pillar 4: Dangerous Life & History -->
+        <article class="pillar-card pillar-card--4 reveal reveal--delay-1">
+          <div class="pillar-card__thumb">
+            <img src="assets/alex-volcano.jpg" alt="Alex investigating volcanic vents and lost terrain" class="pillar-card__img">
+            <div class="pillar-card__overlay"></div>
+            <div class="pillar-card__badge-row">
+              <span class="pillar-card__number">PILLAR // 04</span>
+              <span class="pillar-card__emoji">🦠</span>
+            </div>
+          </div>
+          <div class="pillar-card__body">
+            <div class="pillar-card__header">
+              <h3 class="pillar-card__title">Dangerous Life & History</h3>
+            </div>
+            <p class="pillar-card__topics">
+              Deadly biology, apex predators, lost historical places, and dark forgotten chapters of human expedition.
+            </p>
+            <div class="pillar-card__footer">
+              <a href="stories.html" class="pillar-card__link">
+                <span>Explore History</span>
+                <span>→</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Pillar 5: The Human Limit -->
+        <article class="pillar-card pillar-card--5 reveal reveal--delay-2">
+          <div class="pillar-card__thumb">
+            <img src="assets/alex-avatar.jpg" alt="Alex in astronaut suit" class="pillar-card__img">
+            <div class="pillar-card__overlay"></div>
+            <div class="pillar-card__badge-row">
+              <span class="pillar-card__number">PILLAR // 05</span>
+              <span class="pillar-card__emoji">🫀</span>
+            </div>
+          </div>
+          <div class="pillar-card__body">
+            <div class="pillar-card__header">
+              <h3 class="pillar-card__title">The Human Limit</h3>
+            </div>
+            <p class="pillar-card__topics">
+              Crush depth, hypoxia, and extreme G-force timelines — mapping the exact physiological boundary between life and death.
+            </p>
+            <div class="pillar-card__footer">
+              <a href="documentaries.html" class="pillar-card__link">
+                <span>Explore Limits</span>
+                <span>→</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Pillar 6: System Collapse -->
+        <article class="pillar-card pillar-card--6 reveal reveal--delay-3">
+          <div class="pillar-card__thumb">
+            <img src="assets/alex-executive.jpg" alt="Alex in business suit overlooking city skyline" class="pillar-card__img">
+            <div class="pillar-card__overlay"></div>
+            <div class="pillar-card__badge-row">
+              <span class="pillar-card__number">PILLAR // 06</span>
+              <span class="pillar-card__emoji">🚀</span>
+            </div>
+          </div>
+          <div class="pillar-card__body">
+            <div class="pillar-card__header">
+              <h3 class="pillar-card__title">System Collapse</h3>
+            </div>
+            <p class="pillar-card__topics">
+              The crossover of technology, business, and logistics — where high-finance decisions trigger real-world failure.
+            </p>
+            <div class="pillar-card__footer">
+              <a href="documentaries.html" class="pillar-card__link">
+                <span>Explore Collapse</span>
+                <span>→</span>
+              </a>
             </div>
           </div>
         </article>
@@ -203,38 +404,30 @@
     </div>
   </section>
 
-  <!-- ════════════════════════════════════════
-       CINEMA SHOWCASE TEASER
-       ════════════════════════════════════════ -->
-  <section class="section showcase" id="showcase" aria-label="THE LAST MOVE Channel">
+  <!-- ============================================
+       SHOWCASE / CONTROL ROOM TEASER
+       ============================================ -->
+  <section class="showcase-section" id="showcase" aria-label="Investigation Showcase">
     <div class="container">
       <div class="section-header text-center reveal">
-        <p class="section-header__label" style="justify-content: center;">THE LAST MOVE</p>
-        <h2 class="section-header__title">Original Documentary Storytelling</h2>
+        <span class="section-header__label">ORIGINAL DOCUMENTARY PRODUCTION</span>
+        <h2 class="section-header__title">Inside Alex's Control Room</h2>
         <div class="divider divider--center"></div>
+        <p class="section-header__subtitle" style="margin: 0 auto;">
+          Every episode reconstructs real-world telemetry, technical schematics, and the fatal seconds when safety systems collapsed.
+        </p>
       </div>
 
-      <div class="cinema-showcase reveal">
-        <div class="cinema-showcase__viewport">
-          <img src="assets/og-image.jpg" alt="THE LAST MOVE Preview Teaser" class="cinema-showcase__bg">
-          <div class="cinema-showcase__overlay"></div>
-
-          <div class="cinema-showcase__badges">
-            <span class="cinema-badge cinema-badge--gold">THE LAST MOVE</span>
-            <span class="cinema-badge">ORIGINAL DOCUMENTARIES</span>
-          </div>
-
-          <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="cinema-play-btn" aria-label="Visit THE LAST MOVE on YouTube">
-            <svg viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3"/></svg>
-          </a>
-
-          <div class="cinema-showcase__caption">
+      <div class="showcase-banner-card reveal">
+        <img src="assets/alex-banner.png" alt="THE LAST MOVE Command Center" class="showcase-banner-img">
+        <div class="showcase-banner-overlay">
+          <div class="showcase-banner-meta">
             <div>
-              <div class="cinema-showcase__title">The Decisions That Changed Everything</div>
-              <div class="cinema-showcase__desc">YouTube Channel · @TheLastMoveTV</div>
+              <div class="showcase-banner-title">Built is the Milestone. Ready is the Destination.</div>
+              <div class="showcase-banner-desc">Catch the newest animated investigations and join Alex at the frontline of complex systems.</div>
             </div>
-            <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="btn btn--secondary" style="padding: 0.6rem 1.2rem; font-size: var(--text-xs);">
-              Watch on YouTube
+            <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="btn btn--primary" id="showcase-yt-btn">
+              Watch on YouTube 🔔
             </a>
           </div>
         </div>
@@ -242,112 +435,62 @@
     </div>
   </section>
 
-  <!-- ════════════════════════════════════════
-       EDITORIAL IDEA
-       ════════════════════════════════════════ -->
-  <section class="section editorial" id="editorial" aria-label="Our approach">
+  <!-- ============================================
+       COMMUNITY CALL TO ADVENTURE
+       ============================================ -->
+  <section class="adventure-cta-section" id="community" aria-label="Join Community">
     <div class="container">
-      <div class="editorial__content reveal">
-        <p class="section-header__label">Beyond the Surface</p>
-        <p class="editorial__lead">
-          We go beyond <em>what happened</em> to explore <em>how it happened</em>, <em>why it mattered</em>, and <em>what changed everything</em>.
+      <div class="adventure-cta-box reveal">
+        <h2 class="adventure-cta-title">Ready for the Next Investigation?</h2>
+        <p class="adventure-cta-subtitle">
+          Subscribe to THE LAST MOVE on YouTube and dive into deep investigations of worst-case scenarios, human endurance, and extreme engineering.
         </p>
-        <p class="editorial__text">
-          Every engineering project, every technology, every scientific breakthrough has a hidden layer of decisions, compromises, failures and consequences that most people never see. THE LAST MOVE finds those stories.
-        </p>
-        <div class="divider"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ════════════════════════════════════════
-       STORY EXPERIENCE / TELEMETRY TIMELINE
-       ════════════════════════════════════════ -->
-  <section class="section story-layers" id="story-layers" aria-label="How we tell stories">
-    <div class="container">
-      <div class="section-header text-center reveal">
-        <p class="section-header__label" style="justify-content: center;">Investigation Architecture</p>
-        <h2 class="section-header__title">Beneath Every Outcome</h2>
-        <p class="section-header__subtitle" style="margin: 0 auto;">
-          Every story has layers. We investigate the decisions, systems and consequences hidden beneath the surface.
-        </p>
-      </div>
-
-      <div class="story-layers__flow">
-        <div class="story-layer reveal">
-          <div class="story-layer__step">PHASE // 01</div>
-          <h3 class="story-layer__label">The Surface</h3>
-          <p class="story-layer__text">What the world sees. The outcome, the headline, the catastrophic failure or triumph.</p>
-        </div>
-
-        <div class="story-layer reveal reveal--delay-1">
-          <div class="story-layer__step">PHASE // 02</div>
-          <h3 class="story-layer__label">The System</h3>
-          <p class="story-layer__text">The complex machinery, metallurgy, physics, and software architectures running behind closed doors.</p>
-        </div>
-
-        <div class="story-layer reveal reveal--delay-2">
-          <div class="story-layer__step">PHASE // 03</div>
-          <h3 class="story-layer__label">The Decisions</h3>
-          <p class="story-layer__text">The critical boardroom choices, budget tradeoffs, cognitive biases, and turning points that determined fate.</p>
-        </div>
-
-        <div class="story-layer reveal reveal--delay-3">
-          <div class="story-layer__step">PHASE // 04</div>
-          <h3 class="story-layer__label">The Consequences</h3>
-          <p class="story-layer__text">What changed forever, what failed, what succeeded — and the lasting ripple effects shaping our present.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ════════════════════════════════════════
-       YOUTUBE CTA
-       ════════════════════════════════════════ -->
-  <section class="section youtube-cta" id="youtube-cta" aria-label="Watch on YouTube">
-    <div class="container">
-      <div class="reveal">
-        <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="youtube-cta__icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
-        </a>
-        <h2 class="youtube-cta__title">Watch The Last Move on YouTube</h2>
-        <p class="youtube-cta__handle">@TheLastMoveTV</p>
-        <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="btn btn--primary" id="yt-section-cta">
-          <svg viewBox="0 0 24 24" aria-hidden="true" style="width:18px;height:18px;fill:currentColor;"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
-          Visit the Channel
+        <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="btn btn--creator-cta" id="footer-cta-subscribe">
+          Subscribe, join him, and let's adventure together 🔔
         </a>
       </div>
     </div>
   </section>
 
-  <!-- ════════════════════════════════════════
+  <!-- ============================================
        FOOTER
-       ════════════════════════════════════════ -->
+       ============================================ -->
   <footer class="footer" id="footer" role="contentinfo">
     <div class="container">
       <div class="footer__grid">
         <div class="footer__brand">
-          <img src="assets/logo.jpg" alt="THE LAST MOVE" class="footer__logo" width="48" height="48">
-          <span class="footer__name">The Last Move</span>
-          <span class="footer__tagline">Stories Behind a Complex World.</span>
-          <span class="footer__categories">Engineering · Technology · Science</span>
+          <div class="footer__brand-header">
+            <img src="assets/alex-avatar.jpg" alt="THE LAST MOVE Alex" class="footer__logo" width="48" height="48">
+            <span class="footer__name">THE LAST MOVE</span>
+          </div>
+          <p class="footer__tagline">
+            Built is the milestone. Ready is the destination. This is the last move. Hosted by animated guide Alex.
+          </p>
         </div>
 
         <div>
-          <h3 class="footer__heading">Navigate</h3>
+          <h3 class="footer__heading">Explore</h3>
           <div class="footer__links">
             <a href="index.html" class="footer__link">Home</a>
+            <a href="#about" class="footer__link">About Alex</a>
+            <a href="#pillars" class="footer__link">6 Core Pillars</a>
             <a href="documentaries.html" class="footer__link">Documentaries</a>
             <a href="stories.html" class="footer__link">Stories</a>
-            <a href="about.html" class="footer__link">About</a>
           </div>
         </div>
 
         <div>
-          <h3 class="footer__heading">Connect</h3>
+          <h3 class="footer__heading">Channel</h3>
           <div class="footer__links">
-            <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="footer__link">YouTube — @TheLastMoveTV</a>
-            <a href="mailto:thelastmovetv@gmail.com" class="footer__link">thelastmovetv@gmail.com</a>
+            <a href="https://www.youtube.com/@TheLastMoveTV" target="_blank" rel="noopener noreferrer" class="footer__link">
+              YouTube 🔔 @TheLastMoveTV
+            </a>
+            <a href="mailto:thelastmovetv@gmail.com" class="footer__link">
+              thelastmovetv@gmail.com
+            </a>
+            <a href="about.html" class="footer__link">
+              Creator Dossier & Specs
+            </a>
           </div>
         </div>
       </div>
@@ -355,9 +498,7 @@
       <div class="footer__bottom">
         <p class="footer__copy">&copy; 2026 THE LAST MOVE. All rights reserved.</p>
         <div class="footer__legal">
-          <a href="#" class="footer__link">Privacy</a>
-          <span style="color: var(--color-grey);">·</span>
-          <a href="#" class="footer__link">Terms</a>
+          <span>YouTube Creator Hub & Documentary Series</span>
         </div>
       </div>
     </div>
@@ -365,7 +506,6 @@
 
   <!-- Scripts -->
   <script src="js/data.js"></script>
-  <script src="js/hero-animation.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

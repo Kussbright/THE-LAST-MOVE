@@ -1,17 +1,13 @@
-/* ============================================
-   THE LAST MOVE — Data Model
-   ============================================
-   
-   This file defines the content data structures.
-   Documentaries and stories can be added here
-   without rebuilding the website.
+﻿/* ============================================
+   THE LAST MOVE - Data Model
+   Updated for the 6 Core Content Pillars
    ============================================ */
 
 const TLM = {
   brand: {
     name: 'THE LAST MOVE',
-    tagline: 'Stories Behind a Complex World.',
-    categories: ['Engineering', 'Technology', 'Science'],
+    tagline: 'Built is the milestone. Ready is the destination. This is the last move.',
+    host: 'Alex',
     youtube: {
       handle: '@TheLastMoveTV',
       url: 'https://www.youtube.com/@TheLastMoveTV'
@@ -20,70 +16,68 @@ const TLM = {
   },
 
   /**
-   * Documentary entries.
-   * 
-   * Schema for each documentary:
-   * {
-   *   id: string,              // Unique identifier
-   *   title: string,           // Display title
-   *   slug: string,            // URL-friendly slug
-   *   subtitle: string,        // Short subtitle
-   *   description: string,     // Full description
-   *   pillar: string,          // 'engineering' | 'technology' | 'science'
-   *   categories: string[],    // Array of category tags
-   *   thumbnail: string,       // Path to thumbnail image
-   *   heroImage: string,       // Path to hero/banner image
-   *   youtubeUrl: string,      // YouTube video URL
-   *   runtime: string,         // e.g. '45:00'
-   *   publicationDate: string, // ISO date string
-   *   status: string,          // 'published' | 'upcoming' | 'in-production'
-   *   featured: boolean,       // Whether to feature prominently
-   *   keyNumbers: object[],    // Array of { label, value } stats
-   *   storySections: object[], // Array of { title, content } sections
-   *   timeline: object[],      // Array of { date, event } entries
-   *   sources: string[],       // Reference/source list
-   *   relatedStories: string[],// IDs of related stories
-   *   aiDisclosure: string,    // AI usage disclosure text
-   *   visualCredits: string[]  // Image/visual credits
-   * }
+   * The 6 Core Content Pillars
    */
-  documentaries: [],
+  pillars: [
+    {
+      id: 'engineering-disasters',
+      number: '01',
+      emoji: '🏗️',
+      title: 'Engineering & Tech Disasters',
+      summary: 'Megaprojects, software glitches, infrastructure failures',
+      image: 'assets/alex-blueprints.jpg'
+    },
+    {
+      id: 'extreme-environments',
+      number: '02',
+      emoji: '🌋',
+      title: 'Extreme Environments',
+      summary: 'Deep ocean, space, polar ice, and what they do to the body',
+      image: 'assets/alex-volcano.jpg'
+    },
+    {
+      id: 'mind-under-pressure',
+      number: '03',
+      emoji: '🧠',
+      title: 'The Mind Under Pressure',
+      summary: 'Survival psychology, isolation, and sensory deprivation',
+      image: 'assets/alex-space-alert.jpg'
+    },
+    {
+      id: 'dangerous-life',
+      number: '04',
+      emoji: '🦠',
+      title: 'Dangerous Life & History',
+      summary: 'Deadly biology, predators, lost places, and dark history',
+      image: 'assets/alex-volcano.jpg'
+    },
+    {
+      id: 'human-limit',
+      number: '05',
+      emoji: '🫀',
+      title: 'The Human Limit',
+      summary: 'Crush depth, hypoxia, and extreme G-force timelines',
+      image: 'assets/alex-avatar.jpg'
+    },
+    {
+      id: 'system-collapse',
+      number: '06',
+      emoji: '🚀',
+      title: 'System Collapse',
+      summary: 'The crossover of technology, business, and logistics',
+      image: 'assets/alex-executive.jpg'
+    }
+  ],
 
-  /**
-   * Story/article entries.
-   * 
-   * Schema for each story:
-   * {
-   *   id: string,
-   *   title: string,
-   *   slug: string,
-   *   excerpt: string,
-   *   content: string,
-   *   pillar: string,
-   *   categories: string[],
-   *   thumbnail: string,
-   *   publicationDate: string,
-   *   status: string,
-   *   featured: boolean,
-   *   relatedDocumentary: string,
-   *   sources: string[]
-   * }
-   */
+  documentaries: [],
   stories: [],
 
-  /**
-   * Documentary categories.
-   * Ready for future filtering and navigation.
-   */
   categories: [
-    { id: 'engineering',       label: 'Engineering',          pillar: 'engineering' },
-    { id: 'technology',        label: 'Technology',           pillar: 'technology' },
-    { id: 'science',           label: 'Science',              pillar: 'science' },
-    { id: 'megaprojects',      label: 'Megaprojects',         pillar: 'engineering' },
-    { id: 'infrastructure',    label: 'Infrastructure',       pillar: 'engineering' },
-    { id: 'failures',          label: 'Failures & Disasters', pillar: null },
-    { id: 'industrial',        label: 'Industrial Stories',   pillar: 'engineering' },
-    { id: 'complex-systems',   label: 'Complex Systems',      pillar: null },
-    { id: 'tech-business',     label: 'Technology / Business', pillar: 'technology' }
+    { id: 'engineering-disasters', label: 'Engineering & Tech Disasters', emoji: '🏗️' },
+    { id: 'extreme-environments',  label: 'Extreme Environments',          emoji: '🌋' },
+    { id: 'mind-under-pressure',   label: 'The Mind Under Pressure',       emoji: '🧠' },
+    { id: 'dangerous-life',        label: 'Dangerous Life & History',      emoji: '🦠' },
+    { id: 'human-limit',           label: 'The Human Limit',               emoji: '🫀' },
+    { id: 'system-collapse',       label: 'System Collapse',               emoji: '🚀' }
   ]
 };
